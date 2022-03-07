@@ -1,2 +1,2 @@
 # jogo-da-velha
-Created with CodeSandbox
+Jogo para estudo de Front-End com react, utilizando de lógica simples para estudo básico.
