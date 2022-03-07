@@ -1,0 +1,73 @@
+* {
+  background-color: #ffb3c1;
+  text-align: center;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Game {
+  position: relative;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+}
+
+.Game h1 {
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #ff4d6d;
+}
+
+.Game__menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background: rgba(255, 255, 255, 100);
+  border-radius: 20px;
+  padding: 15px;
+  background-color: #a4133c;
+}
+.Game__menu p {
+  background-color: #a4133c;
+  color: #fff;
+}
+
+.Game__board {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.Game__board button {
+  border: 2px solid #fff;
+  font-size: 4rem;
+  color: #590d22;
+  line-height: 0;
+  background-color: #ffb3c1;
+}
+.Game__board button:hover {
+  opacity: 60%;
+  cursor: pointer;
+}
+
+.reset {
+  padding: 10px;
+  background-color: #a4133c;
+  color: #fff;
+  border-radius: 5%;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 0.1rem;
+}
+
+.reset:hover {
+  opacity: 60%;
+  cursor: pointer;
+}
